@@ -1,0 +1,28 @@
+# robots.txt for Electrozone Marketplace
+
+# Allow all search engines to crawl all pages
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /payment/
+Disallow: /account/
+
+# Allow specific search engines to crawl specific pages
+User-agent: Googlebot
+Disallow: /checkout/
+Disallow: /payment/
+Allow: /profile/
+
+# Block crawlers from certain URLs to avoid duplicate content
+Disallow: /?sort=
+Disallow: /?filter=
+Disallow: /search
+
+# Block crawlers from unnecessary resources like scripts, images, etc.
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+
+# Sitemap location for better crawling efficiency
+Sitemap: https://www.electrozone.com/sitemap.xml
