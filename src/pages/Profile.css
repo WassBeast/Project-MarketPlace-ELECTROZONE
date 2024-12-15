@@ -1,0 +1,61 @@
+.profile-container {
+    max-width: 1200px; /* Set a max width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .profile-title {
+    text-align: center; /* Center the title */
+    font-size: 2.5rem; /* Larger font size */
+    margin-bottom: 30px; /* Space below the title */
+    color: #333; /* Dark color for the title */
+  }
+  
+  .my-products-title {
+    font-size: 2rem; /* Font size for "My Products" */
+    margin-top: 30px; /* Space above "My Products" */
+    color: #fc0845; /* Color for the title */
+  }
+  
+  .product-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  .product-item {
+    display: flex; /* Use flexbox for horizontal layout */
+    background-color: #ffffff; /* White background for each item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside each item */
+    margin-bottom: 20px; /* Space between items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  }
+  
+  .product-image-container {
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .product-image {
+    width: 150px; /* Adjust width for images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .product-info h3 {
+    font-size: 1.8rem; /* Font size for product title */
+    color: #333; /* Color for titles */
+    margin: 0 0 10px; /* Space below titles */
+  }
+  
+  .product-info p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #555; /* Slightly lighter color for text */
+  }
+  
+  .product-price {
+    font-size: 1.5rem; /* Larger font size for price */
+    color: #28a745; /* Green color for price */
+  }
+  

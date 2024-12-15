@@ -1,0 +1,96 @@
+/* TVPage.css */
+
+.tv-container {
+  max-width: 1200px; /* Set a max width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  background-color: #f4f4f4; /* Light background color matching profile */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.tv-title {
+  text-align: center; /* Center the title */
+  font-size: 2.5rem; /* Larger font size */
+  margin-bottom: 30px; /* Space below the title */
+  color: #333; /* Dark color for the title */
+}
+
+.tv-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+}
+
+.tv-item {
+  display: flex; /* Use flexbox for horizontal layout */
+  background-color: #ffffff; /* White background for each item */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside each item */
+  margin-bottom: 20px; /* Space between items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.tv-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.tv-image-container {
+  margin-right: 20px; /* Space between image and text */
+}
+
+.tv-image {
+  width: 150px; /* Adjust width for images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.tv-info h2 {
+  font-size: 1.8rem; /* Font size for title */
+  color: #fc0845; /* Blue color for titles */
+  margin: 0 0 10px; /* Space below titles */
+}
+
+.tv-info p {
+  margin: 5px 0; /* Space between paragraphs */
+  color: #555; /* Slightly lighter color for text */
+}
+
+.tv-price {
+  font-size: 1.5rem; /* Larger font size for price */
+  color: #28a745; /* Green color for price */
+}
+
+.quantity-control {
+  display: flex; /* Use flexbox for quantity controls */
+  align-items: center; /* Center vertically */
+  margin-top: 10px; /* Space above quantity controls */
+}
+
+.quantity-button {
+  background-color: #e0e0e0; /* Light background for buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button */
+  padding: 5px 10px; /* Button padding */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.quantity-input {
+  width: 50px; /* Fixed width for input */
+  text-align: center; /* Center text in input */
+  margin: 0 5px; /* Space between buttons and input */
+}
+
+.add-to-cart-btn {
+  margin-top: 10px; /* Space above button */
+  padding: 10px 15px; /* Button padding */
+  background-color: #fc0845; /* Bootstrap primary color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.2s; /* Smooth transition */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #fc0845; /* Darker shade on hover */
+}

@@ -1,0 +1,15 @@
+/* src/components/Layout.css */
+.layout {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    height: calc(100vh - 128px); /* Adjust height according to your header and footer height */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .full-image {
+    width: 100%; /* Make the image take the full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire area without distortion */
+  }
+  
